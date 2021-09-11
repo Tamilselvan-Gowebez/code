@@ -1,0 +1,112 @@
+.animation-element {
+    opacity: 0;
+}
+
+/*animation element sliding left*/
+.animation-element.slide-left {
+    opacity: 0;
+    transition: all 500ms linear;
+    transform: translate3d(-40px, 0px, 0px);
+    @include media-max-lg {
+        transform: translate3d(-10px, 0px, 0px);
+    }
+}
+
+.animation-element.slide-left.in-view {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+/*animation element sliding left*/
+.animation-element.slide-right {
+    opacity: 0;
+    transition: all 500ms linear;
+    transform: translate3d(40px, 0px, 0px);
+    @include media-max-lg {
+        transform: translate3d(10px, 0px, 0px);
+    }
+}
+
+.animation-element.slide-right.in-view {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+/*animation element sliding down*/
+.animation-element.slide-down {
+    opacity: 0;
+    transition: all 500ms linear;
+    transform: translate3d(0px, -40px, 0px);
+    @include media-max-lg {
+        transform: translate3d(0px, -10px, 0px);
+    }
+}
+
+.animation-element.slide-down.in-view {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+
+}
+
+
+/*animation element sliding down*/
+.animation-element.slide-down1 {
+    opacity: 0;
+    transition: all 1200ms linear;
+    transform: translate3d(0px, -40px, 0px);
+    @include media-max-lg {
+        transform: translate3d(0px, -10px, 0px);
+    }
+}
+
+.animation-element.slide-down1.in-view {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+
+}
+
+/*animation element sliding down*/
+.animation-element.slide-down2 {
+    opacity: 0;
+    transition: all 1000ms linear;
+    transform: translate3d(0px, -40px, 0px);
+    @include media-max-lg {
+        transform: translate3d(0px, -10px, 0px);
+    }
+}
+
+.animation-element.slide-down2.in-view {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+
+}
+/*animation element sliding down*/
+.animation-element.slide-down3 {
+    opacity: 0;
+    transition: all 700ms linear;
+    transform: translate3d(0px, -40px, 0px);
+    @include media-max-lg {
+        transform: translate3d(0px, -10px, 0px);
+    }
+}
+
+.animation-element.slide-down3.in-view {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+
+}
+/*animation element sliding down*/
+.animation-element.slide-down4 {
+    opacity: 0;
+    transition: all 500ms linear;
+    transform: translate3d(0px, -40px, 0px);
+    @include media-max-lg {
+        transform: translate3d(0px, -10px, 0px);
+    }
+}
+
+.animation-element.slide-down4.in-view {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+
+}

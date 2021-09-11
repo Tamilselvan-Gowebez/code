@@ -1,0 +1,51 @@
+https://vuejs.org/
+https://cli.vuejs.org/
+https://www.tutorialspoint.com/vuejs/index.htm
+https://www.youtube.com/playlist?list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa https://www.youtube.com/playlist?list=PLwAKR305CRO_1yAao-8aZiQnBqJeyng4O
+https://laracasts.com/series/learn-vue-2-step-by-step
+
+1.npm install -g @vue/cli
+
+will install vue in c:\xampp\htdocs
+
+2. vue create proj or vue init webpack myproject
+
+will create a new project named proj in htdocs folder
+3. after installation move into c:\xampp\htdocs\proj folder and then run your dependencies or plugins
+4. Plug ins
+
+npm install bootstrap
+
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+npm install jquery
+
+npm install popper.js --save
+
+npm install --save-dev @fortawesome/fontawesome-free
+
+link in main js 
+
+import '@fortawesome/fontawesome-free/css/all.css'
+import '@fortawesome/fontawesome-free/js/all.js'
+
+npm install sass-loader node-sass webpack --save-dev
+
+npm install element-ui -S
+
+npm install --save vue-material-design-icons
+
+npm install vuelidate --save
+
+npm install element-ui -S
+font :\
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+5.npm run build
+
+to build our project
+
+6.npm run serve
+
+7.vue add router

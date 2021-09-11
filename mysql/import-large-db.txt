@@ -1,0 +1,14 @@
+
+####  IMPORT LARGE DATABASE VIA TERMINAL #####
+1. Set the directory in cmd
+cd xampp/mysql/bin     
+
+2.Run the commend with 
+u - username, 
+p - Database name,
+file path of sql file
+
+mysql -u username -p databasename -v < "File path\File name.sql" 
+
+3.Press Enter
+4.Enter password
