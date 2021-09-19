@@ -1,0 +1,10 @@
+php artisan make:command ReportsCron --command=reports:cron
+
+php artisan schedule:run
+
+Commands\DemoCron::class,
+
+$schedule->command('demo:cron')
+                 ->everyMinute();
+
+https://www.itsolutionstuff.com/post/laravel-6-cron-job-task-scheduling-tutorialexample.html
