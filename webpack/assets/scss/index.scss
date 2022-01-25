@@ -1,0 +1,16 @@
+div {
+    display: flex;
+    transform: translate(10);
+}
+
+
+
+input {
+    background-color: aliceblue;
+}
+
+::placeholder {
+    color: rgb(231, 0, 0);
+    font-size: larger;
+}
+

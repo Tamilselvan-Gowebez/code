@@ -1,0 +1,38 @@
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: translate(10);
+          transform: translate(10);
+}
+
+input {
+  background-color: aliceblue;
+}
+
+::-webkit-input-placeholder {
+  color: #e70000;
+  font-size: larger;
+}
+
+::-moz-placeholder {
+  color: #e70000;
+  font-size: larger;
+}
+
+:-ms-input-placeholder {
+  color: #e70000;
+  font-size: larger;
+}
+
+::-ms-input-placeholder {
+  color: #e70000;
+  font-size: larger;
+}
+
+::placeholder {
+  color: #e70000;
+  font-size: larger;
+}
+
+/*# sourceMappingURL=index.css.map*/
